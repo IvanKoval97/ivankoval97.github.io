@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 300px auto;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    transition: 3s;
+}
+
+.box:hover{
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+
